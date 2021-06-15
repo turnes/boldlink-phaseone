@@ -46,12 +46,13 @@ chmod +x hello.sh
 ```
 
 # 1.2
-Download zip
+Method 1 - Download zip file of the project
 ```
-wget 
+wget https://github.com/turnes/boldlink-phaseone/archive/refs/heads/main.zip -o rafaelturnes-phaseone.zip
 ```
 
-Clone repository
+Method 2 - Clone repository
 ```
  git clone git@github.com:turnes/boldlink-phaseone.git
+ git archive -o rafaelturnes-phaseone.zip HEAD
 ```
